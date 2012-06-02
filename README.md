@@ -16,14 +16,14 @@ Operation
 ATtiny85 pin assignments 
 ------------------------
 (legs numbered 1..8 counterclockwise from leg marked with dot)  
-1. Reset pin, no connection
-2. LDR sensor reading (connected to one leg of LDR, and the end of a 10kR resistor which is connected to GND)
-3. LDR power (connected to the other end of the LDR). Only powered while LDR readings are needed
-4. GND.  Connected to ground.
-5. Wingtip navigation lights.  Connected to red & green LEDs in parallel through correct current limiting resistors
-6. Tail strobe.  Connected to a red LED through a current limiting resistor
-7. Headlights.  Connected to a pair of white LEDs in parallel, through correct current limiting resistors
-8. VCC, in this case most likely 3.7V, so ATtiny will run without additional regulation
+1. Reset pin, no connection  
+2. LDR sensor reading (connected to one leg of LDR, and the end of a 10kR resistor which is connected to GND)  
+3. LDR power (connected to the other end of the LDR). Only powered while LDR readings are needed  
+4. GND.  Connected to ground.  
+5. Wingtip navigation lights.  Connected to red & green LEDs in parallel through correct current limiting resistors 
+6. Tail strobe.  Connected to a red LED through a current limiting resistor  
+7. Headlights.  Connected to a pair of white LEDs in parallel, through correct current limiting resistors  
+8. VCC, in this case most likely 3.7V, so ATtiny will run without additional regulation  
 
 Code
 ----
@@ -39,7 +39,8 @@ Power for the ATtiny was taken by splicing directly into the power lead to the b
 
 The LDR pokes out through the join in the side of the fuselage, so when the aircraft is all taped up, it helps hold the ATtiny in place.
 
-BoM as tested:  
+BoM, as tested
+--------------
 	1x ATtiny85-20PU  
 	1x 8 pin DIP IC Socket (optional, you might be confident soldering direct to the ATtiny to reduce weight)  
 	2x 3mm red LEDs  
