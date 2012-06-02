@@ -40,16 +40,16 @@ Power for the ATtiny was taken by splicing directly into the power lead to the b
 The LDR pokes out through the join in the side of the fuselage, so when the aircraft is all taped up, it helps hold the ATtiny in place.
 
 BoM as tested:  
-	* 1x ATtiny85-20PU
-	* 1x 8 pin DIP IC Socket (optional, you might be confident soldering direct to the ATtiny to reduce weight)
-	* 2x 3mm red LEDs
-	* 1x 3mm green LED
-	* 2x 5mm white LED
-	* 1x Light dependent resistor
-	* 1x 10kR resistor (voltage divider, for LDR)
-	* 2x 100R resistor (current limiting, headlights)
-	* 3x 220R resistor (current limiting, wingtips & strobe)
-	* Thin, light wire (we pulled apart an IDE cable for ours)
+	1x ATtiny85-20PU  
+	1x 8 pin DIP IC Socket (optional, you might be confident soldering direct to the ATtiny to reduce weight)  
+	2x 3mm red LEDs  
+	1x 3mm green LED  
+	2x 5mm white LED  
+	1x Light dependent resistor  
+	1x 10kR resistor (voltage divider, for LDR)  
+	2x 100R resistor (current limiting, headlights)  
+	3x 220R resistor (current limiting, wingtips & strobe)  
+	Thin, light wire (we pulled apart an IDE cable for ours)  
 	
   
 Enjoy : ) 
